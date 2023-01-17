@@ -1,0 +1,39 @@
+body {
+    background-color: cornsilk;
+    width: 99%;
+}
+
+h1, h2, p, ul, ol {
+    text-align: center;
+    margin: auto;
+    padding: 0px 0px 1rem 0px;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, ul, ol {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.episodes {
+    width: 60%;
+    margin: auto;
+}
+
+.spaced {
+    padding-bottom: 1rem;
+}
+
+.date {
+    font-style: italic;
+}
+
+.jobtitle {
+    font-weight: bold;
+}
+
+.role_requirements {
+    font-size: 0.8em;
+}
