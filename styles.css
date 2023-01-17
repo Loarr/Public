@@ -1,0 +1,13 @@
+div {
+    border: 1px;
+    border-color: black;
+    border-style: ridge;
+}
+
+img {
+    max-width: 256px;
+}
+
+.form_input {
+    color: red;
+}
