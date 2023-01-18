@@ -3,6 +3,10 @@ body {
     width: 99%;
 }
 
+hr {
+    color: brown;
+}
+
 h1, h2, p, ul, ol {
     text-align: center;
     margin: auto;
