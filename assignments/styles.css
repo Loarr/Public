@@ -17,7 +17,11 @@ hr{
     padding: 0.5rem 0;
     margin: 0.5rem 1rem;
     border-radius: 12px;
-    vertical-align: middle;
+}
+
+.color_sq:hover{
+    border-bottom: 2px solid brown;
+    border-left: 2px solid brown;
 }
 
 h1, h2, p, ul, ol {
@@ -61,6 +65,8 @@ p, ul, ol {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    height: 211px;
 }
 
 .full_width{
