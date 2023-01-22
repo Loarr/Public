@@ -4,30 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css\styles.css">
     <title>Anything You Like</title>
 </head>
 <body>
 
     <div>
         <h1>Heading 1</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, eligendi quod? Voluptas voluptatem corrupti sit in quisquam eveniet nostrum, mollitia inventore fugit illo, tempore magnam sunt! Illo minus harum velit.</p>
+        <p class="simple-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, eligendi quod? Voluptas voluptatem corrupti sit in quisquam eveniet nostrum, mollitia inventore fugit illo, tempore magnam sunt! Illo minus harum velit.</p>
     </div>
 
-    <ul>
+    <ul class="list-container ordered-list" id="list">
         <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 2</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
     </ul>
     
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 2</li>
+    <ol class="list-container" id="">
+        <li><span>Item 4</span></li>
+        <li><span>Item 5</span></li>
+        <li><span>Item 6</span></li>
     </ol>
 
     <div>
-        <a href="http://www.google.co.uk" target="_blank" rel="noopener noreferrer">Open Google</a>
+        <a class="link" href="http://www.google.co.uk" target="_blank" rel="noopener noreferrer">Open Google</a>
         <br />
         <span>This is para 1</span>
         <br />
@@ -52,6 +52,15 @@
 
             <button aria-role="button" type="submit">Submit</button>
         </form>
+    </div>
+
+    <div class="parent">
+        <div class="box"></div>
+        <div class="box grid-col-span-2"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
 
 </body>
