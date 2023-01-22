@@ -1,0 +1,14 @@
+.inner {
+    width: 100px;
+    height: 100px;
+    background-color: powderblue;
+    margin: 20px 75px 30px 15px;
+    position: absolute;
+}
+
+.outer {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
