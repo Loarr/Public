@@ -22,6 +22,7 @@ hr{
 .color_sq:hover{
     border-bottom: 2px solid brown;
     border-left: 2px solid brown;
+    margin: 7px 15px;
 }
 
 h1, h2, p, ul, ol {
