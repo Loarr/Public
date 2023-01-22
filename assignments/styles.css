@@ -3,8 +3,25 @@ body {
     width: 99%;
 }
 
-hr {
+.section {
+    border-bottom: 3px solid brown;
+    width: 99%;
+}
+
+hr{
     color: brown;
+}
+
+.color_sq{
+    background-color: rgb(219, 166, 97);
+    padding: 0.5rem 0;
+    margin: 0.5rem 1rem;
+    border-radius: 12px;
+}
+
+.color_sq:hover{
+    border-bottom: 2px solid brown;
+    border-left: 2px solid brown;
 }
 
 h1, h2, p, ul, ol {
@@ -21,13 +38,11 @@ p, ul, ol {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-hr {
-    color: brown;
-}
-
-.episodes {
+.centre {
     width: 60%;
     margin: auto;
+    text-align: justify;
+    text-align-last: center;
 }
 
 .spaced {
@@ -44,4 +59,42 @@ hr {
 
 .role_requirements {
     font-size: 0.8em;
+    padding-bottom: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    height: 211px;
+}
+
+.full_width{
+    grid-column: 3;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 810px) {
+    .centre{
+        width: 70%;
+    }
+
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .grid_item {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .centre{
+        width: 80%;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
 }
