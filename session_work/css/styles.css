@@ -1,0 +1,84 @@
+div {
+    border: 1px;
+    border-color: black;
+    border-style: ridge;
+}
+
+img {
+    max-width: 256px;
+}
+
+.form_input {
+    color: rgb(15, 125, 15);
+}
+
+.list-container{
+    background-color: brown;
+}
+
+.link:visited{
+    color: blue;
+}
+
+.list-container > li:hover {
+    color: bisque;
+}
+
+/* Multiline 
+comment */
+
+.list-container > li > span:hover {
+    background-color: blue;
+}
+
+.ordered-list::before{
+    content: ':)';
+}
+
+.simple-para::first-letter{
+    font-size: 36px;
+    color: maroon;
+}
+
+
+/* Flexbox setup
+.parent {
+    display: flex;
+    width: 100%;
+    border: 1px solid blue;
+    overflow: auto;
+    padding: 1em;
+}
+
+.box {
+    width: 300px;
+    height: 250px;
+    background: black;
+    margin: 2em 2em;
+}
+
+@media screen and (max-width: 640px){
+    .parent{
+        flex-direction: column;
+    }
+} */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    border: 1px solid blue;
+    overflow: auto;
+    padding: 1em;
+}
+
+.grid-col-span-2{
+    grid-column: span 2;
+}
+
+.box {
+    width: 300px;
+    height: 250px;
+    background: black;
+    margin: 1em auto;
+}
