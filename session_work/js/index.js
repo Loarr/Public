@@ -14,6 +14,10 @@ parameters vs arguments - parameters are when function defined, arguments are wh
 function functionName(parameter, parameter2){content; return object} 
 loops -- for (start condition; terminating condition; increment){do stuff}
          while(start)
+maps only on array - method on an array that takes in a function
+when passing a function inside a function, pass as anonymous, function(){} or ()=>{}
+filter is another array method => returns an array of values for which the condition is true
+reduce reduces array to a single value - sum a array of floats or cat an array of strings
 */
 
 console.log("Hello World!")
@@ -62,8 +66,36 @@ for (let i = 0; i < 5; i++){
 let numbers = []
 for(let i = 0; i<10; i++){
     numbers[i] = (i*10);
-}
+    }
+
 console.log(numbers)
-for(let i = 0; i <= numbers.length; i++){
+
+for(let i = 0; i <= numbers.length-1; i++){
     console.log(numbers[i])
 }
+
+function myFunction(num){
+    return num*10;
+}
+const number = [65, 44, 12, 4]
+const newArr = number.map(myFunction)
+console.log(newArr)
+
+const numbers2 = [1,2,3,4,5,6,7,8,9]
+const squares2 = numbers2.map((number, index)=>{
+    return number * number
+})
+
+console.log(squares2)
+
+let evens = numbers2.filter((number, index)=>{
+    return number % 2 == 0
+})
+console.log(evens)
+
+const sum = numbers.reduce((previousValue, currentValue, currentIndex)=>{
+    previousValue = previousValue + currentValue
+    return previousValue
+}, 0)
+
+console.log(sum)
