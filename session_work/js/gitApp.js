@@ -25,7 +25,7 @@ window.addEventListener("load", ()=>{
             li1.innerHTML = `Public Repos: ${public_repos}`;
             const li2 = document.createElement('li');
             li2.innerHTML = `Follower: ${followers}`;
-            list.innerHTML = ''
+            list.innerHTML = '';
             list.appendChild(li1);
             list.appendChild(li2);
         })

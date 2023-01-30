@@ -1,0 +1,6 @@
+Front end client side
+Vue does not write DB queries or server side - interview question
+NuxtJS, Laravel(PHP) - full stack
+Collection of libraries with ready made solutions for routine tasks
+SPA - single page applications, SSR - server side rendering, SSG -  
+Apps like dashboard, complex UI rendering, small web Apps
