@@ -2,5 +2,74 @@ Front end client side
 Vue does not write DB queries or server side - interview question
 NuxtJS, Laravel(PHP) - full stack
 Collection of libraries with ready made solutions for routine tasks
-SPA - single page applications, SSR - server side rendering, SSG -  
+SPA - single page applications, SSR - server side rendering, SSG - static side generation 
 Apps like dashboard, complex UI rendering, small web Apps
+npm init vue@latest - case sensitive
+TS yes/no
+JSX y/n
+Vue Router - yes!
+Pinia - yes
+Vitest - yes
+End to end no
+ESLint - error finding tool - checks JS and makes sure it's correct to basic rules
+
+npm run dev - create server
+
+vite.config.js - make project production ready, build as vue project
+package.json - like requirements.txt - npm install - downloads and installs these packages and their packages
+node_modules - those packages
+
+public folder - for assets that will be accessible to users
+src - main folder, source, this is where actual application logic goes
+vite converts src to usable html css javascript
+
+3 important files to boot - index.html, main.js, App.vue
+
+index.html loads the script from main.js and that is all
+<div id="app"></div> is app container
+
+main.js imports some functions from vue, pinia and the app
+It then creates the app and then mounts it in the app div
+
+All components used have to come directly or indirectly into App.vue
+
+components - divide until you can't divide anymore - reusable components
+simple component has 3 element - html, js and css
+component's html wrapped with template tag
+
+Options API - composition API - 2 ways (focus on setup script)
+options api becomes difficult to read if app becomes complex
+
+Two types of components - full page components in view folder, parts in components
+
+Vue VSCode Snippets makes easy setup - vbase to get template - might need to install volar
+
+View Router package links folders - router folder has index.js - links view to path
+Create Router function - pass 
+create webhistory function history: function(history) - import.meta.env.BASE_URL - use webhistory not hash history - metavariable automatically defined
+routes array routes:{
+    path:''
+    name:''
+    component: name - this is eager loading / component: ()=>import(path/file.vue) - lazy loading
+}
+export default router - to allow use
+
+if importing a folder will look for index.js
+
+imports in {} are named exports
+import without {} is eager import - imports everything
+
+props always sends data from parent to child - one way only
+within script
+defineProps({
+    prop:{
+        type:
+        required:
+    }
+})
+
+Data binding - 2 way where html and javascript both reflect changes
+First must import reactivity - import {ref} from vue
+const variable = ref() -- makes variable reactive object
+used for forms, searching, posting messages etc
+v-model applies an evenlistener for input - then runs a function - functionsally the same as v-on:input

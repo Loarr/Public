@@ -1,0 +1,19 @@
+Hi Caroline,
+
+This is the job I wrote this for: https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=am9ibGlzdF92aWV3X3ZhYz0xODMyNjgxJnBhZ2VjbGFzcz1Kb2JzJnBhZ2VhY3Rpb249dmlld3ZhY2J5am9ibGlzdCZvd25lcj01MDcwMDAwJm93bmVydHlwZT1mYWlyJnNlYXJjaHBhZ2U9MSZzZWFyY2hzb3J0PXNjb3JlJnVzZXJzZWFyY2hjb250ZXh0PTI0MTMzNDk3JnJlcXNpZz0xNjc1Mjg2MjMyLTgzMzdhZWE5MzYxNzYwM2UwZTJjYmYwODEzODk4MzRhYzZhM2Q1Yjg=
+
+I have a feeling it's all terrible. I could write you a great CV and cover letter for any one of my staff but found this really uncomfortable. That's something I need to work on.
+
+
+Dear Hiring Manager,
+
+I would like to apply for the advertised position of Junior Software Developer based out of the North West England location. I think the position provides a really exciting oportunity to do work which can have a really positive impact on people lives and someone who is very people focused this really appeals to me.
+
+Justice Digitaln really stands out to me due to their commitment to people and focus on ethical practice. I was particularly impressed by the company ranking highly in the social mobility index, commitment to work place inclusivity, and focus on staff training and wellbeing. Having been a manager for a long time I know how important employee wellbeing and development is. Having worked in a retail environment for the past 10 years I really appreciate the focus on customers and the impact that appraoch can have on the service offered. Throughout my career I have always been heavily involved in both learning and training and am pleased with the focus you place it. 
+
+This year I have taken part in a coding bootcamp which has provided me with a strong foundation to build on for software development. I have worked with JavaScript and Python and have some experience building web-apps in both VueJs, as part of the course, and Flask, as a personal project.
+
+Thank you for your consideration. As someone looking to move into the tech sector I appreciate your time and would appreciate any feedback regarding my application
+
+Kind Regards
+Mark
