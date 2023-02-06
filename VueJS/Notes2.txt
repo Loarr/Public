@@ -1,0 +1,17 @@
+WHat is a server? - it's a computer that is remote which provides functionality
+ViewJS uses node server
+Written in a server side language
+Types of server: Web, File, Database, Application, Mail, Game, DNS, Print - one process at one port at a time
+Database is where you store data - structured (tabular/relational), unstructured (images, videos, files, JSON)
+n-tier architecture for efficency - database infrastucture, business logic(web servers and application server), front end browser
+SQL - structured query language - better for structured predictable data
+NoSQL - Not just SQL - better and faster when data is unpredictable, more horizontally scalable
+SQL DB - MySQL, PosegreSQL, aqlite, AWS RDS, Supabase
+PostgreSQL - can handle multiple requests
+Max 64 columns
+ACID rule - atomicity, consistency, isolation, durability
+
+Reder - cloud provider
+PosegreSQL - SQL database
+Fast API - python framework
+VueJS - front end
